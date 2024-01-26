@@ -62,3 +62,13 @@ control+c
 ```
 
 pour aller sur les autres machine:
+
+```jsx
+pour la machine front :
+ssh frontend@100.101.103.59
+mdp:root
+
+pour la machine base de donnée :
+ssh database@100.117.30.25
+mdp:database
+```
