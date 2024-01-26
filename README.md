@@ -1,3 +1,3 @@
 # ArchitectureLinux
 
-doc backend: https://www.notion.so/Back-680918e0d2b7402d98b76fe00869880a
+doc frontend: https://www.notion.so/Front-66be19cf19d74186bf3ed31ac1716ae4
