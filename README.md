@@ -1,6 +1,6 @@
 # Back
 
-Techno:
+Techno: Python
 
 Caractéristique de la machine:
 
