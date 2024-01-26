@@ -10,8 +10,9 @@ Caractéristique de la machine:
 - Nom de machine sur Tailscale: backmachine
 
 Lien tailscale: 
-
-[](https://login.tailscale.com/admin/machines/100.117.174.114)
+```bash
+https://login.tailscale.com/admin/machines/100.117.174.114
+```
 
 cocher les options durant la création de la machine virtuelle :
 
