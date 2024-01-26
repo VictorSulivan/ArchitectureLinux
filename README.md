@@ -70,3 +70,13 @@ sudo systemctl restart apache2.service
 ```
 
 pour aller sur les autres machines :
+
+```jsx
+pour la machine back :
+ssh backend@100.117.174.114
+mdp:backend
+
+pour la machine base de donnée :
+ssh database@100.117.30.25
+mdp:database
+```
