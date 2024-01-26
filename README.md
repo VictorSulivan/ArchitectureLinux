@@ -10,8 +10,9 @@ Caractéristique de la machine :
 - Nom de machine sur Tailscale: frontend
 
 Lien Tailscale : 
-
-[](https://login.tailscale.com/admin/machines/100.101.103.59)
+```bash
+https://login.tailscale.com/admin/machines/100.101.103.59
+```
 
 cocher les options durant la création de la machine virtuelle :
 
@@ -45,6 +46,20 @@ Télécharger le fichier index.php puis l’ajouter dans le dossier “/var/www/
 
 https://github.com/VictorSulivan/ArchitectureLinux/blob/frontend/index.php
 
+à partir de la machine virtuelle :
+
+```bash
+sudo chmod g+w /var/www/html
+```
+
+à partir de la machine hôte :
+
+aller dans le dossier avec lequel il y a le fichier index.php
+
+```bash
+sudo scp index.php frontend@100.101.103.59:/var/www/html
+```
+
 **activer le backend et la BDD avant de démarrer le frontend sinon les requêtes ne marcheront pas**
 
 Démarrer le serveur frontend :
@@ -70,7 +85,6 @@ sudo systemctl restart apache2.service
 ```
 
 pour aller sur les autres machines :
-
 ```jsx
 pour la machine back :
 ssh backend@100.117.174.114
