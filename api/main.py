@@ -15,7 +15,7 @@ from routes.logs import log_route
 
 app = FastAPI()
 origins = [
-    "http://localhost:8888",
+    "http://100.101.103.59/",
 ]
 
 app.add_middleware(
@@ -43,5 +43,5 @@ app.include_router(log_route.router)
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run(app, host="127.0.0.1", port=8000)
+    uvicorn.run(app, host="100.117.174.114", port=8000)
 
